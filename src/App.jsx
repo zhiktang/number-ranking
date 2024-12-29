@@ -66,8 +66,8 @@ const NumberRankingGame = () => {
   };
 
   return (
-    <div className="w-full flex justify-center">
-      <div className="w-96">
+    <div className="container mx-auto px-4 max-w-2xl">
+      <div className="w-full">
         <Card className="mb-6">
           <CardHeader>
             <CardTitle>Number Ranking Game</CardTitle>
