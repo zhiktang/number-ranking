@@ -66,8 +66,9 @@ const NumberRankingGame = () => {
   };
 
   return (
-    <div className="container mx-auto max-w-xl px-4">
-        <Card className="mb-8 w-full shadow-md">
+    <div className="w-full flex justify-center">
+      <div className="w-96">
+        <Card className="mb-6">
           <CardHeader>
             <CardTitle>Number Ranking Game</CardTitle>
           </CardHeader>
@@ -91,7 +92,7 @@ const NumberRankingGame = () => {
           </CardContent>
         </Card>
 
-        <Card className="w-full shadow-md">
+        <Card>
           <CardHeader>
             <CardTitle>
               {matchHistory.length >= 500 ? 'Current Rankings' : `${500 - matchHistory.length} more matches until rankings are revealed`}
@@ -119,7 +120,7 @@ const NumberRankingGame = () => {
         </Card>
 
         {matchHistory.length > 0 && (
-          <Card className="mt-8 w-full shadow-md">
+          <Card className="mt-6">
             <CardHeader>
               <CardTitle>Recent Matches</CardTitle>
             </CardHeader>
@@ -134,6 +135,7 @@ const NumberRankingGame = () => {
             </CardContent>
           </Card>
         )}
+      </div>
     </div>
   );
 };
