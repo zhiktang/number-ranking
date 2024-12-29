@@ -113,7 +113,7 @@ const NumberRankingGame = () => {
               </div>
             ) : (
               <div className="text-center py-4 text-gray-600">
-                Keep playing to reveal the rankings!
+                Keep playing to reveal the ranking!
               </div>
             )}
           </CardContent>
