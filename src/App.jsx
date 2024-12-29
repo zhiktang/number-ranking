@@ -70,8 +70,9 @@ const NumberRankingGame = () => {
   };
 
   return (
-    <div className="p-4 max-w-2xl mx-auto container flex flex-col items-center">
-      <Card className="mb-6">
+    <div className="min-h-screen w-full flex justify-center">
+      <div className="p-4 w-full max-w-2xl">
+      <Card className="mb-6 w-full">
         <CardHeader>
           <CardTitle>Number Ranking Game</CardTitle>
         </CardHeader>
