@@ -66,8 +66,8 @@ const NumberRankingGame = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 max-w-2xl">
-      <div className="w-full">
+    <div className="w-full min-h-screen flex items-start justify-center">
+      <div className="w-full max-w-2xl px-4 mx-auto">
         <Card className="mb-6">
           <CardHeader>
             <CardTitle>Number Ranking Game</CardTitle>
@@ -113,7 +113,7 @@ const NumberRankingGame = () => {
               </div>
             ) : (
               <div className="text-center py-4 text-gray-600">
-                Keep playing to reveal the ranking!
+                Keep playing to reveal the rankings!
               </div>
             )}
           </CardContent>
