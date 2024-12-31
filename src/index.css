@@ -1,3 +1,10 @@
+#bigroot {
+  width: 100vw;
+  height: 100vh;
+  place-content: center;
+  display: flex;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
