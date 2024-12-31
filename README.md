@@ -1,1 +1,2 @@
-# whoever centers this gets credit for the whole website
+~~whoever centers this gets credit for the whole website~~
+I centered it
